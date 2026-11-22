@@ -1,1 +1,45 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREBOX - Mystery Box Pakistan</title>
+<style>
+body{margin:0;font-family:Arial;background:#0f0f0f;color:white;text-align:center}
+header{padding:50px 20px;background:linear-gradient(135deg,#ff2d55,#ff9500)}
+header h1{font-size:48px;margin:0}
+header p{font-size:18px}
+.btn{display:inline-block;background:white;color:black;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:15px}
+.box{background:#1c1c1c;margin:20px;padding:20px;border-radius:15px}
+.price{color:#ffcc00;font-size:24px;font-weight:bold}
+footer{padding:20px;color:#aaa}
+</style>
+</head>
+<body>
+<header>
+<h1>PREBOX</h1>
+<p>Pakistan's Most Exciting Mystery Box</p>
+<a class="btn" href="https://wa.me/923000000000">Order on WhatsApp</a>
+</header>
+
+<div class="box">
+<h2>🎁 Mini Box</h2>
+<p>Surprise items worth more than price</p>
+<div class="price">Rs. 999</div>
+</div>
+
+<div class="box">
+<h2>🔥 Premium Box</h2>
+<p>Premium gadgets + accessories + surprise gift</p>
+<div class="price">Rs. 1,999</div>
+</div>
+
+<div class="box">
+<h2>👑 Mega Box</h2>
+<p>Biggest value - Limited Stock</p>
+<div class="price">Rs. 3,999</div>
+</div>
+
+<footer>© 2026 PREBOX - Cash on Delivery Available All Over Pakistan</footer>
+</body>
+</html>
