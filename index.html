@@ -33,3 +33,16 @@ body{margin:0;font-family:Arial;background:#ffffff;color:#000;text-align:center}
 
 </body>
 </html>
+<script>
+function searchPack() {
+  let input = document.getElementById('search').value.toLowerCase();
+  let packs = document.querySelectorAll('.pack');
+  packs.forEach(function(pack) {
+    if (pack.innerText.toLowerCase().includes(input)) {
+      pack.style.display = "";
+    } else {
+      pack.style.display = "none";
+    }
+  });
+}
+</script>
